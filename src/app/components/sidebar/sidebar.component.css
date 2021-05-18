@@ -1,0 +1,159 @@
+.sidebar {
+  width: 100%;
+  height: 100%;
+  color: #707C97;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04), 0 0 2px rgba(0, 0, 0, 0.06), 0 0 1px rgba(0, 0, 0, 0.04);
+  font-family: Montserrat, sans-serif;
+}
+
+.logo-wrapper {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #707C97;
+}
+
+.logo-icon {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.logo-name {
+  margin-left: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.nav {
+  width: 100%;
+  height: 83vh;
+  margin-top: 20px;
+  color: #000;
+  font-size: 18px;
+}
+
+.nav-item-wrapper {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 10px;
+  padding-left: 5px;
+  transition: 0.5s;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  transition: 0.6s;
+  cursor: pointer;
+
+}
+
+.nav-item-name-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item:hover, .nav-item:focus {
+  background: #EEEDFE;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+
+.nav-item-dropdown-on {
+  background: #EEEDFE;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+
+.nav-item-icon, .nav-item-dropdown-icon {
+  width: 25px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item-icon {
+  margin-right: 10px;
+}
+
+.nav-item-icon img, .nav-item-dropdown-icon img {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nav-item-name {
+  margin-top: 1px;
+  line-height: 0.9;
+}
+
+.dropdown {
+  width: 100%;
+}
+
+.dropdown-item {
+  height: 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  padding-left: 46px;
+  padding-top: 6px;
+  padding-bottom: 3px;
+  font-weight: 400;
+  font-size: 14px;
+  transition: 0.4s;
+}
+
+.dropdown-item:hover {
+  background: rgb(139, 130, 250);
+  color: white;
+}
+
+.logout {
+  width: 200px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 10px;
+  padding-left: 5px;
+  transition: 0.5s;
+  color: black;
+}
+
+.logout:hover {
+  border-radius: 6px;
+  background: #EC8280;
+  padding-left: 10px;
+}
+
+.logout-icon {
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+}
+
+.logout-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.logout-name {
+  margin-left: 10px;
+}

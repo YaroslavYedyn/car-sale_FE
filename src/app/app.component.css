@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  min-width: 100vw;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar-wrapper {
+  width: 250px;
+  min-height: 100vh;
+}
+
+.main-wrapper {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  min-width: 83vw;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 18px;
+  background: salmon;
+}
+
+.route {
+  width: 100%;
+  height: 92vh;
+}

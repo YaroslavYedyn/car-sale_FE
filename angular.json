@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "carSaleFE"
+  "defaultProject": "carSaleFE",
+  "cli": {
+    "analytics": false
+  }
 }
